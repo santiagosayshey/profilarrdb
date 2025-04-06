@@ -21,10 +21,10 @@ conditions:
   required: true
   type: release_group
 - name: EbP
+  type: release_group
+  required: true
   negate: true
   pattern: EbP
-  required: true
-  type: release_group'
 - name: c0kE
   negate: true
   pattern: c0kE
@@ -61,10 +61,10 @@ conditions:
   required: true
   type: release_group
 - name: ZoroSenpai
-  type: release_group
-  required: true
   negate: true
   pattern: ZoroSenpai
+  required: true
+  type: release_group
 - name: CRiSC
   negate: true
   pattern: CRiSC
