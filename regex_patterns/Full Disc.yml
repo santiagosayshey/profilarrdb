@@ -19,7 +19,7 @@ tests:
 - expected: true
   id: 1
   input: Bleach.S14.NTSC.DVD.LPCM2.0-NOGRP
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-04-07T07:04:20.685217'
   matchSpan:
     end: 15
     start: 11
@@ -48,7 +48,7 @@ tests:
 - expected: true
   id: 2
   input: "The Prisoner 2009 S01 1080i Blu-ray AVC DTS-HD MA 5.1-CultFilms\u2122"
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-04-07T07:04:20.685217'
   matchSpan:
     end: 64
     start: 0
@@ -77,7 +77,7 @@ tests:
 - expected: true
   id: 3
   input: Scissor.Penis.2018.1080i.Blu-ray.AVC.DTS-HD.MA.2.0
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-04-07T07:04:20.685217'
   matchSpan:
     end: 50
     start: 0
@@ -106,7 +106,7 @@ tests:
 - expected: true
   id: 4
   input: "Heaven's Prisoners 1996 1080p AUS Blu-ray AVC LPCM 2.0-CultFilms\u2122"
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-04-07T07:04:20.685217'
   matchSpan:
     end: 65
     start: 0
@@ -135,7 +135,7 @@ tests:
 - expected: true
   id: 5
   input: Hors-saison.2024.VOF.1080p.FRA.BluRay.AVC.DTS-HD.MA.5.1-RyanHG
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-04-07T07:04:20.685217'
   matchSpan:
     end: 62
     start: 0
@@ -164,7 +164,7 @@ tests:
 - expected: true
   id: 6
   input: El.Aviso.2018.SPANiSH.COMPLETE.BLURAY-CEBCOM
-  lastRun: '2024-12-08T22:54:52.791014'
+  lastRun: '2025-04-07T07:04:20.685217'
   matchSpan:
     end: 44
     start: 0
@@ -190,3 +190,32 @@ tests:
   - null
   - null
   passes: true
+- expected: false
+  id: 7
+  input: '[U3-Web] Tsumiki no Ie (2008) [AMZN WEB-DL 1080p AVC E-AC-3 AAC]'
+  lastRun: '2025-04-07T07:04:20.685217'
+  matchSpan:
+    end: 52
+    start: 49
+  matchedContent: AVC
+  matchedGroups:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - AVC
+  passes: false
