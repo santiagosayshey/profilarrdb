@@ -1,211 +1,211 @@
 qualityDefinitions:
-	radarr:
-		Unknown:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WORKPRINT:
-			min: 0
-			preferred: 1999
-			max: 2000
-		CAM:
-			min: 0
-			preferred: 1999
-			max: 2000
-		TELESYNC:
-			min: 0
-			preferred: 1999
-			max: 2000
-		TELECINE:
-			min: 0
-			preferred: 1999
-			max: 2000
-		REGIONAL:
-			min: 0
-			preferred: 1999
-			max: 2000
-		DVDSCR:
-			min: 0
-			preferred: 1999
-			max: 2000
-		SDTV:
-			min: 0
-			preferred: 1999
-			max: 2000
-		DVD:
-			min: 0
-			preferred: 1999
-			max: 2000
-		DVD-R:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBDL-480p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBRip-480p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-480p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-576p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		HDTV-720p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBDL-720p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBRip-720p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-720p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		HDTV-1080p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBDL-1080p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBRip-1080p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-1080p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Remux-1080p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		HDTV-2160p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBDL-2160p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBRip-2160p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-2160p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Remux-2160p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		BR-DISK:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Raw-HD:
-			min: 0
-			preferred: 1999
-			max: 2000
-	sonarr:
-		Unknown:
-			min: 0
-			preferred: 1999
-			max: 2000
-		SDTV:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBRip-480p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBDL-480p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		DVD:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-480p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-576p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		HDTV-720p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		HDTV-1080p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Raw-HD:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBRip-720p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBDL-720p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-720p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBRip-1080p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBDL-1080p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-1080p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-1080p Remux:
-			min: 0
-			preferred: 1999
-			max: 2000
-		HDTV-2160p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBRip-2160p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		WEBDL-2160p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-2160p:
-			min: 0
-			preferred: 1999
-			max: 2000
-		Bluray-2160p Remux:
-			min: 0
-			preferred: 1999
-			max: 2000
+    radarr:
+      Unknown:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WORKPRINT:
+        min: 0
+        preferred: 1999
+        max: 2000
+      CAM:
+        min: 0
+        preferred: 1999
+        max: 2000
+      TELESYNC:
+        min: 0
+        preferred: 1999
+        max: 2000
+      TELECINE:
+        min: 0
+        preferred: 1999
+        max: 2000
+      REGIONAL:
+        min: 0
+        preferred: 1999
+        max: 2000
+      DVDSCR:
+        min: 0
+        preferred: 1999
+        max: 2000
+      SDTV:
+        min: 0
+        preferred: 1999
+        max: 2000
+      DVD:
+        min: 0
+        preferred: 1999
+        max: 2000
+      DVD-R:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBDL-480p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBRip-480p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-480p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-576p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      HDTV-720p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBDL-720p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBRip-720p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-720p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      HDTV-1080p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBDL-1080p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBRip-1080p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-1080p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Remux-1080p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      HDTV-2160p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBDL-2160p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBRip-2160p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-2160p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Remux-2160p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      BR-DISK:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Raw-HD:
+        min: 0
+        preferred: 1999
+        max: 2000
+    sonarr:
+      Unknown:
+        min: 0
+        preferred: 1999
+        max: 2000
+      SDTV:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBRip-480p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBDL-480p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      DVD:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-480p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-576p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      HDTV-720p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      HDTV-1080p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Raw-HD:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBRip-720p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBDL-720p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-720p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBRip-1080p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBDL-1080p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-1080p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-1080p Remux:
+        min: 0
+        preferred: 1999
+        max: 2000
+      HDTV-2160p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBRip-2160p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      WEBDL-2160p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-2160p:
+        min: 0
+        preferred: 1999
+        max: 2000
+      Bluray-2160p Remux:
+        min: 0
+        preferred: 1999
+        max: 2000
