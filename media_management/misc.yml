@@ -1,1 +1,7 @@
-propersRepacks: 2
+radarr:
+    propersRepacks: "doNotPrefer" # preferAndUpgrade, doNotUpgrade, doNotPrefer
+    enableMediaInfo: true
+
+sonarr:
+    propersRepacks: "doNotPrefer" # preferAndUpgrade, doNotUpgrade, doNotPrefer
+    enableMediaInfo: true
