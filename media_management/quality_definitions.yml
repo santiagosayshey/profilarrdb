@@ -27,7 +27,7 @@ qualityDefinitions:
     CAM:
       max: 2000
       min: 0
-      preferred: 1999
+      preferred: 1990
     DVD:
       max: 2000
       min: 0
@@ -39,7 +39,7 @@ qualityDefinitions:
     DVDSCR:
       max: 2000
       min: 0
-      preferred: 1999
+      preferred: 1990
     HDTV-1080p:
       max: 2000
       min: 0
@@ -75,11 +75,11 @@ qualityDefinitions:
     TELECINE:
       max: 2000
       min: 0
-      preferred: 1999
+      preferred: 1990
     TELESYNC:
       max: 2000
       min: 0
-      preferred: 1999
+      preferred: 1990
     Unknown:
       max: 2000
       min: 0
@@ -119,7 +119,7 @@ qualityDefinitions:
     WORKPRINT:
       max: 2000
       min: 0
-      preferred: 1999
+      preferred: 1990
   sonarr:
     Bluray-1080p:
       max: 1000
