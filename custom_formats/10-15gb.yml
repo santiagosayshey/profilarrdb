@@ -1,0 +1,13 @@
+name: 10-15gb
+description: ''
+tags: []
+conditions:
+- maxSize: '15'
+  maxSizeUnit: GB
+  minSize: '10'
+  minSizeUnit: GB
+  name: 10-15gb
+  negate: false
+  required: true
+  type: size
+tests: []

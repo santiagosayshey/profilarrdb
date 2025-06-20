@@ -1,0 +1,70 @@
+name: 1080p Efficient
+description: "This profile is a work in progress! Do not use it in production!\n\n\
+  - People are going to want to use this profile because size is _the_ most important\
+  \ consideration. Quality and efficiency matter yes, but not if the file is too big.\n\
+  - So, we use size to bucket the releases we want. If people want stuff that is between\
+  \ 3-5gb per movie, then they are going to grab stuff that is 3-5gb per movie. \n\
+  - The best thing you can possibly do - is pick the most efficient possible release\
+  \ in the size range a person wants. \n- Once we sort into size groups what do we\
+  \ actually want? In what order? \n\n1. DS4K x265 Encode\n2. Bluray x265 Encode\n\
+  3. Lossless h265 WEB-DL (HONE does this, who else?)\n4. 1080p Quality Fallback\n\
+  5. Crap x265 (MeGusta, iVy, etc) \n\n- Profilarr advanced mode\n- Instead of showing\
+  \ generic scoring page, let users click advanced mode. Set a target size (per gb\
+  \ or something), then apply scores on top of that\n- Import options. Profilarr tagged\
+  \ stuff inside radarr/sonarr will let profilarr apply a profile to that item. Profilarr\
+  \ can then choose the specific size settings depending on the movie (get the runtime\
+  \ from the arr, import the specific profile appropriate for that movie. 1hr, 2hr,\
+  \ 3hr, animation, etc) \n- size CFs are built at compile time, not hardcoded. \n\
+  \nAt the top end, how do we decide what to grab? size above all? release group above\
+  \ all? \n- Does it matter if a Timedistortion encode is \"better\" by whatever subjective\
+  \ metric we use if its 2gb bigger than an EDGE2020 encode? I think no, the size\
+  \ is more important to people. \n- Why should the \"better\" group win out here?\
+  \ What exactly are they doing better? So long as we are encoding from a good source\
+  \ (which we will blacklist groups who don't), then the quality benefits from 1-2gb\
+  \ extra is not going to be evident for the majority of users. \n- What extra benefits\
+  \ are they getting with the extra 1-2gb quality wise? Slightly better grain, dark\
+  \ scene improvements, less banding, etc. \n- If you truly want quality, then you\
+  \ need to be using the quality profile. \n- Building on Seraphys' idea using release\
+  \ group tiers as \"tiebreakers\", we can maintain a psuedo list of release groups\
+  \ parsed and ranked using GPPi. This way in practical searching, groups are actually\
+  \ grouped together and you rely less on your indexer availability. "
+tags:
+- Efficient
+- x265
+- EEi
+upgradesAllowed: true
+minCustomFormatScore: 1000
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats:
+- name: 5-9gb
+  score: 10000
+- name: 10-15gb
+  score: 5000
+- name: 1-4gb
+  score: 1000
+- name: HEVC
+  score: 1000
+- name: 1080p Bluray
+  score: 500
+- name: DS4K
+  score: 500
+- name: Lossless 1080p h265 WEBDL
+  score: 400
+- name: 5-6gb
+  score: -50
+qualities:
+- id: -1
+  name: 1080p
+  description: ''
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+upgrade_until:
+  id: -1
+  name: 1080p
+language: must_english

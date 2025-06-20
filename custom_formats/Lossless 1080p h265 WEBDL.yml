@@ -1,0 +1,20 @@
+name: Lossless 1080p h265 WEBDL
+description: Matches groups who release true 1080p h265 WEBDLs
+tags: []
+conditions:
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
+- name: WEBDL
+  type: source
+  required: true
+  negate: false
+  source: web_dl
+- name: HONE
+  type: release_group
+  required: false
+  negate: false
+  pattern: HONE
+tests: []

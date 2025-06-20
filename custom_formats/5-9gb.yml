@@ -1,0 +1,13 @@
+name: 5-9gb
+description: ''
+tags: []
+conditions:
+- maxSize: '9'
+  maxSizeUnit: GB
+  minSize: '5'
+  minSizeUnit: GB
+  name: 5-9gb
+  negate: false
+  required: true
+  type: size
+tests: []

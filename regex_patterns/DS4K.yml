@@ -1,0 +1,5 @@
+name: DS4K
+pattern: \b(DS4k)\b
+description: ''
+tags: []
+tests: []

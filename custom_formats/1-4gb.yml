@@ -1,0 +1,13 @@
+name: 1-4gb
+description: ''
+tags: []
+conditions:
+- maxSize: '4'
+  maxSizeUnit: GB
+  minSize: '1'
+  minSizeUnit: GB
+  name: 1-4gb
+  negate: false
+  required: true
+  type: size
+tests: []
