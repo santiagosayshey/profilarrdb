@@ -1,0 +1,6 @@
+name: FreetheFish QxR
+pattern: (?<=^|[\s.-])FreetheFish QxR\b
+description: Matches "FreetheFish QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

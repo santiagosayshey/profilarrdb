@@ -1,0 +1,6 @@
+name: Ainz TAoE
+pattern: (?<=^|[\s.-])Ainz TAoE\b
+description: Matches "Ainz TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

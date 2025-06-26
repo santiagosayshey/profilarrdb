@@ -1,0 +1,6 @@
+name: Bandi QxR
+pattern: (?<=^|[\s.-])Bandi QxR\b
+description: Matches "Bandi QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

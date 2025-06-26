@@ -1,0 +1,20 @@
+name: 1080p Efficient Movie Encode Tier 7
+description: Matches release groups who fall under 1080p Efficient Movie Encode Tier 7
+tags:
+  - Release Group Tier
+  - Efficient
+  - 1080p
+  - Movie
+  - Encode
+conditions:
+  - name: 1080p
+    negate: false
+    required: true
+    resolution: 1080p
+    type: resolution
+  - name: Bosp TAoE
+    negate: false
+    pattern: Bosp TAoE
+    required: false
+    type: release_title
+tests: null

@@ -1,0 +1,6 @@
+name: Ghost QxR
+pattern: (?<=^|[\s.-])Ghost QxR\b
+description: Matches "Ghost QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

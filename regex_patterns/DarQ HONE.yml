@@ -1,0 +1,6 @@
+name: DarQ HONE
+pattern: (?<=^|[\s.-])DarQ HONE\b
+description: Matches "DarQ HONE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

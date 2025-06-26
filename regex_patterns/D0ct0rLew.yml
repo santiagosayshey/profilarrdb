@@ -1,0 +1,6 @@
+name: D0ct0rLew
+pattern: (?<=^|[\s.-])D0ct0rLew\b
+description: Matches "D0ct0rLew" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

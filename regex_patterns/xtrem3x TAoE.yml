@@ -1,0 +1,6 @@
+name: xtrem3x TAoE
+pattern: (?<=^|[\s.-])xtrem3x TAoE\b
+description: Matches "xtrem3x TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

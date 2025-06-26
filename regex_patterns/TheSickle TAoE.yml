@@ -1,0 +1,6 @@
+name: TheSickle TAoE
+pattern: (?<=^|[\s.-])TheSickle TAoE\b
+description: Matches "TheSickle TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: Weasley HONE
+pattern: (?<=^|[\s.-])Weasley HONE\b
+description: Matches "Weasley HONE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

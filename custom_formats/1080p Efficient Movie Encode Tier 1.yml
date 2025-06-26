@@ -1,0 +1,20 @@
+name: 1080p Efficient Movie Encode Tier 1
+description: Matches release groups who fall under 1080p Efficient Movie Encode Tier 1
+tags:
+  - Release Group Tier
+  - Efficient
+  - 1080p
+  - Movie
+  - Encode
+conditions:
+  - name: 1080p
+    negate: false
+    required: true
+    resolution: 1080p
+    type: resolution
+  - name: dkore
+    negate: false
+    pattern: dkore
+    required: false
+    type: release_group
+tests: null

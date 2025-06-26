@@ -1,0 +1,6 @@
+name: ArcX TAoE
+pattern: (?<=^|[\s.-])ArcX TAoE\b
+description: Matches "ArcX TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

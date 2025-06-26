@@ -1,0 +1,6 @@
+name: TimeDistortion
+pattern: (?<=^|[\s.-])TimeDistortion\b
+description: Matches "TimeDistortion" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

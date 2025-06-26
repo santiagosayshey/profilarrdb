@@ -1,0 +1,25 @@
+name: 1080p Efficient Movie Encode Tier 6
+description: Matches release groups who fall under 1080p Efficient Movie Encode Tier 6
+tags:
+  - Release Group Tier
+  - Efficient
+  - 1080p
+  - Movie
+  - Encode
+conditions:
+  - name: 1080p
+    negate: false
+    required: true
+    resolution: 1080p
+    type: resolution
+  - name: D0ct0rLew
+    negate: false
+    pattern: D0ct0rLew
+    required: false
+    type: release_group
+  - name: Kira
+    negate: false
+    pattern: Kira
+    required: false
+    type: release_group
+tests: null

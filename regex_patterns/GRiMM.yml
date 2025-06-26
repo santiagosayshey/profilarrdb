@@ -1,7 +1,6 @@
 name: GRiMM
 pattern: (?<=^|[\s.-])GRiMM\b
-description: ''
+description: Matches "GRiMM" when preceded by whitespace, a hyphen or dot
 tags:
-- Release Group
-- HEVC
-tests: []
+  - Release Group
+tests: null

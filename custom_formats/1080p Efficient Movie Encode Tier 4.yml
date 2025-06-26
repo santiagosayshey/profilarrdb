@@ -1,0 +1,30 @@
+name: 1080p Efficient Movie Encode Tier 4
+description: Matches release groups who fall under 1080p Efficient Movie Encode Tier 4
+tags:
+  - Release Group Tier
+  - Efficient
+  - 1080p
+  - Movie
+  - Encode
+conditions:
+  - name: 1080p
+    negate: false
+    required: true
+    resolution: 1080p
+    type: resolution
+  - name: SM727
+    negate: false
+    pattern: SM727
+    required: false
+    type: release_group
+  - name: SQS
+    negate: false
+    pattern: SQS
+    required: false
+    type: release_group
+  - name: r00t QxR
+    negate: false
+    pattern: r00t QxR
+    required: false
+    type: release_title
+tests: null

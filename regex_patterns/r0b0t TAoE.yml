@@ -1,0 +1,6 @@
+name: r0b0t TAoE
+pattern: (?<=^|[\s.-])r0b0t TAoE\b
+description: Matches "r0b0t TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

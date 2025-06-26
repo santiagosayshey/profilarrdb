@@ -1,0 +1,6 @@
+name: r00t QxR
+pattern: (?<=^|[\s.-])r00t QxR\b
+description: Matches "r00t QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

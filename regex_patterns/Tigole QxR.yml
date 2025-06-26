@@ -1,0 +1,6 @@
+name: Tigole QxR
+pattern: (?<=^|[\s.-])Tigole QxR\b
+description: Matches "Tigole QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

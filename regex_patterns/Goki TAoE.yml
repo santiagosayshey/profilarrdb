@@ -1,0 +1,6 @@
+name: Goki TAoE
+pattern: (?<=^|[\s.-])Goki TAoE\b
+description: Matches "Goki TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

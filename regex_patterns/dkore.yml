@@ -1,7 +1,6 @@
 name: dkore
 pattern: (?<=^|[\s.-])dkore\b
-description: ''
+description: Matches "dkore" when preceded by whitespace, a hyphen or dot
 tags:
-- Release Group
-- Anime
-tests: []
+  - Release Group
+tests: null

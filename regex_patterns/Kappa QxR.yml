@@ -1,0 +1,6 @@
+name: Kappa QxR
+pattern: (?<=^|[\s.-])Kappa QxR\b
+description: Matches "Kappa QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

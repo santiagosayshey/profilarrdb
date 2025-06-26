@@ -1,0 +1,6 @@
+name: RZeroX QxR
+pattern: (?<=^|[\s.-])RZeroX QxR\b
+description: Matches "RZeroX QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

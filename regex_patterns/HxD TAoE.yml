@@ -1,0 +1,6 @@
+name: HxD TAoE
+pattern: (?<=^|[\s.-])HxD TAoE\b
+description: Matches "HxD TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

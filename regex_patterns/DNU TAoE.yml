@@ -1,0 +1,6 @@
+name: DNU TAoE
+pattern: (?<=^|[\s.-])DNU TAoE\b
+description: Matches "DNU TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

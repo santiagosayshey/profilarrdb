@@ -1,7 +1,6 @@
 name: LSt
 pattern: (?<=^|[\s.-])LSt\b
-description: ''
+description: Matches "LSt" when preceded by whitespace, a hyphen or dot
 tags:
-- Release Group
-- HEVC
-tests: []
+  - Release Group
+tests: null

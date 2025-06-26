@@ -1,0 +1,6 @@
+name: ToNaTo
+pattern: (?<=^|[\s.-])ToNaTo\b
+description: Matches "ToNaTo" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

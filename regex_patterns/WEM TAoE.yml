@@ -1,0 +1,6 @@
+name: WEM TAoE
+pattern: (?<=^|[\s.-])WEM TAoE\b
+description: Matches "WEM TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

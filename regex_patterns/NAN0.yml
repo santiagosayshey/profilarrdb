@@ -1,0 +1,6 @@
+name: NAN0
+pattern: (?<=^|[\s.-])NAN0\b
+description: Matches "NAN0" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: Bosp TAoE
+pattern: (?<=^|[\s.-])Bosp TAoE\b
+description: Matches "Bosp TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

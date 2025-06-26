@@ -1,0 +1,6 @@
+name: ANONAZ TAoE
+pattern: (?<=^|[\s.-])ANONAZ TAoE\b
+description: Matches "ANONAZ TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

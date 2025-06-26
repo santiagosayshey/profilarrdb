@@ -1,0 +1,6 @@
+name: afm72 QxR
+pattern: (?<=^|[\s.-])afm72 QxR\b
+description: Matches "afm72 QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

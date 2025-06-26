@@ -1,7 +1,6 @@
 name: YELLO
 pattern: (?<=^|[\s.-])YELLO\b
-description: ''
+description: Matches "YELLO" when preceded by whitespace, a hyphen or dot
 tags:
-- Release Group
-- HEVC
-tests: []
+  - Release Group
+tests: null

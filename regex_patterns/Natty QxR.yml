@@ -1,0 +1,6 @@
+name: Natty QxR
+pattern: (?<=^|[\s.-])Natty QxR\b
+description: Matches "Natty QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: honeyvera
+pattern: (?<=^|[\s.-])honeyvera\b
+description: Matches "honeyvera" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: JBENT TAoE
+pattern: (?<=^|[\s.-])JBENT TAoE\b
+description: Matches "JBENT TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

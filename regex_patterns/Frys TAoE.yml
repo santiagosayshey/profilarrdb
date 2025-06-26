@@ -1,0 +1,6 @@
+name: Frys TAoE
+pattern: (?<=^|[\s.-])Frys TAoE\b
+description: Matches "Frys TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

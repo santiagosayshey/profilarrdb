@@ -1,0 +1,6 @@
+name: YOGI QxR
+pattern: (?<=^|[\s.-])YOGI QxR\b
+description: Matches "YOGI QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: Silence QxR
+pattern: (?<=^|[\s.-])Silence QxR\b
+description: Matches "Silence QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: Panda QxR
+pattern: (?<=^|[\s.-])Panda QxR\b
+description: Matches "Panda QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

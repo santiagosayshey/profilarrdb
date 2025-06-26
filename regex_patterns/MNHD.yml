@@ -1,0 +1,6 @@
+name: MNHD
+pattern: (?<=^|[\s.-])MNHD\b
+description: Matches "MNHD" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

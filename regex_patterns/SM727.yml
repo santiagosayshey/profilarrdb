@@ -1,0 +1,6 @@
+name: SM727
+pattern: (?<=^|[\s.-])SM727\b
+description: Matches "SM727" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

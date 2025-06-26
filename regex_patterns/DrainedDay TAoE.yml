@@ -1,0 +1,6 @@
+name: DrainedDay TAoE
+pattern: (?<=^|[\s.-])DrainedDay TAoE\b
+description: Matches "DrainedDay TAoE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

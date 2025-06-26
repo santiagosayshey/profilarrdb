@@ -1,7 +1,6 @@
 name: Vyndros
 pattern: (?<=^|[\s.-])Vyndros\b
-description: ''
+description: Matches "Vyndros" when preceded by whitespace, a hyphen or dot
 tags:
-- Release Group
-- HEVC
-tests: []
+  - Release Group
+tests: null

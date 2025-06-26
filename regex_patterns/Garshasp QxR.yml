@@ -1,0 +1,6 @@
+name: Garshasp QxR
+pattern: (?<=^|[\s.-])Garshasp QxR\b
+description: Matches "Garshasp QxR" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

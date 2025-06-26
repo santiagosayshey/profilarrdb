@@ -1,0 +1,6 @@
+name: DiscoD HONE
+pattern: (?<=^|[\s.-])DiscoD HONE\b
+description: Matches "DiscoD HONE" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: NiCEHEVC
+pattern: (?<=^|[\s.-])NiCEHEVC\b
+description: Matches "NiCEHEVC" when preceded by whitespace, a hyphen or dot
+tags:
+  - Release Group
+tests: null

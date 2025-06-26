@@ -1,0 +1,235 @@
+name: 1080p Efficient Movie Encode Tier 3
+description: Matches release groups who fall under 1080p Efficient Movie Encode Tier 3
+tags:
+  - Release Group Tier
+  - Efficient
+  - 1080p
+  - Movie
+  - Encode
+conditions:
+  - name: 1080p
+    negate: false
+    required: true
+    resolution: 1080p
+    type: resolution
+  - name: ANONAZ TAoE
+    negate: false
+    pattern: ANONAZ TAoE
+    required: false
+    type: release_title
+  - name: Ainz TAoE
+    negate: false
+    pattern: Ainz TAoE
+    required: false
+    type: release_title
+  - name: ArcX TAoE
+    negate: false
+    pattern: ArcX TAoE
+    required: false
+    type: release_title
+  - name: Bandi QxR
+    negate: false
+    pattern: Bandi QxR
+    required: false
+    type: release_title
+  - name: Chivaman
+    negate: false
+    pattern: Chivaman
+    required: false
+    type: release_group
+  - name: DNU TAoE
+    negate: false
+    pattern: DNU TAoE
+    required: false
+    type: release_title
+  - name: DarQ HONE
+    negate: false
+    pattern: DarQ HONE
+    required: false
+    type: release_title
+  - name: DiscoD HONE
+    negate: false
+    pattern: DiscoD HONE
+    required: false
+    type: release_title
+  - name: DrainedDay TAoE
+    negate: false
+    pattern: DrainedDay TAoE
+    required: false
+    type: release_title
+  - name: FreetheFish QxR
+    negate: false
+    pattern: FreetheFish QxR
+    required: false
+    type: release_title
+  - name: Frys TAoE
+    negate: false
+    pattern: Frys TAoE
+    required: false
+    type: release_title
+  - name: GRiMM
+    negate: false
+    pattern: GRiMM
+    required: false
+    type: release_group
+  - name: Garshasp QxR
+    negate: false
+    pattern: Garshasp QxR
+    required: false
+    type: release_title
+  - name: Ghost QxR
+    negate: false
+    pattern: Ghost QxR
+    required: false
+    type: release_title
+  - name: Goki TAoE
+    negate: false
+    pattern: Goki TAoE
+    required: false
+    type: release_title
+  - name: HxD TAoE
+    negate: false
+    pattern: HxD TAoE
+    required: false
+    type: release_title
+  - name: JBENT TAoE
+    negate: false
+    pattern: JBENT TAoE
+    required: false
+    type: release_title
+  - name: Kappa QxR
+    negate: false
+    pattern: Kappa QxR
+    required: false
+    type: release_title
+  - name: MNHD
+    negate: false
+    pattern: MNHD
+    required: false
+    type: release_group
+  - name: MONOLITH QxR
+    negate: false
+    pattern: MONOLITH QxR
+    required: false
+    type: release_title
+  - name: Natty QxR
+    negate: false
+    pattern: Natty QxR
+    required: false
+    type: release_title
+  - name: NiCEHEVC
+    negate: false
+    pattern: NiCEHEVC
+    required: false
+    type: release_group
+  - name: Panda QxR
+    negate: false
+    pattern: Panda QxR
+    required: false
+    type: release_title
+  - name: R1GY3B
+    negate: false
+    pattern: R1GY3B
+    required: false
+    type: release_group
+  - name: RZeroX QxR
+    negate: false
+    pattern: RZeroX QxR
+    required: false
+    type: release_title
+  - name: Ralphy
+    negate: false
+    pattern: Ralphy
+    required: false
+    type: release_group
+  - name: SAMPA QxR
+    negate: false
+    pattern: SAMPA QxR
+    required: false
+    type: release_title
+  - name: SARTRE
+    negate: false
+    pattern: SARTRE
+    required: false
+    type: release_group
+  - name: Silence QxR
+    negate: false
+    pattern: Silence QxR
+    required: false
+    type: release_title
+  - name: TheSickle TAoE
+    negate: false
+    pattern: TheSickle TAoE
+    required: false
+    type: release_title
+  - name: TimeDistortion
+    negate: false
+    pattern: TimeDistortion
+    required: false
+    type: release_group
+  - name: ToNaTo
+    negate: false
+    pattern: ToNaTo
+    required: false
+    type: release_group
+  - name: Vyndros
+    negate: false
+    pattern: Vyndros
+    required: false
+    type: release_group
+  - name: WEM TAoE
+    negate: false
+    pattern: WEM TAoE
+    required: false
+    type: release_title
+  - name: Weasley HONE
+    negate: false
+    pattern: Weasley HONE
+    required: false
+    type: release_title
+  - name: YELLO
+    negate: false
+    pattern: YELLO
+    required: false
+    type: release_group
+  - name: YOGI QxR
+    negate: false
+    pattern: YOGI QxR
+    required: false
+    type: release_title
+  - name: Yogi HONE
+    negate: false
+    pattern: Yogi HONE
+    required: false
+    type: release_title
+  - name: afm72 QxR
+    negate: false
+    pattern: afm72 QxR
+    required: false
+    type: release_title
+  - name: edge2020
+    negate: false
+    pattern: edge2020
+    required: false
+    type: release_group
+  - name: honeyvera
+    negate: false
+    pattern: honeyvera
+    required: false
+    type: release_group
+  - name: r0b0t TAoE
+    negate: false
+    pattern: r0b0t TAoE
+    required: false
+    type: release_title
+  - name: t3nzin QxR
+    negate: false
+    pattern: t3nzin QxR
+    required: false
+    type: release_title
+  - name: xtrem3x TAoE
+    negate: false
+    pattern: xtrem3x TAoE
+    required: false
+    type: release_title
+tests: null
