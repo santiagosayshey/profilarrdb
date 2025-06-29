@@ -17,7 +17,7 @@ tags:
 - HDR
 - Lossless Audio
 - h265
-upgradesAllowed: true
+upgradesAllowed: false
 minCustomFormatScore: 2000
 upgradeUntilScore: 16000
 minScoreIncrement: 1
