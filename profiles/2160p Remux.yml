@@ -105,7 +105,7 @@ custom_formats:
 - name: Blu-ray
   score: -9999
 - name: Dolby Vision (Without Fallback)
-  score: -9999
+  score: -150
 - name: Extras
   score: -9999
 - name: Full Disc
