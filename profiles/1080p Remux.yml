@@ -7,7 +7,7 @@ description: "1080p Remux utilizes **audio tags** to prioritise high quality los
   \ also helps to grab non group tagged remuxes, which are fairly common on quite\
   \ a few trackers who often have the best remux available. \n- If no 1080p Remux\
   \ cannot be found, the profile falls back to **1080p WEB-DLs**.\n- If no 1080p release\
-  \ can be found, the profile will fall back to SD releases - DVD remuxes  / encodes. "
+  \ can be found, the profile will fall back to SD releases - DVD remuxes  / encodes. This is some arbitrary change to this profiles description"
 tags:
 - 1080p
 - Remux
