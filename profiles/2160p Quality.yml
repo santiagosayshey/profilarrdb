@@ -174,7 +174,7 @@ custom_formats:
 - name: B&W
   score: -99999
 - name: Dolby Vision (Without Fallback)
-  score: -99999
+  score: -150
 - name: Extras
   score: -99999
 - name: Full Disc
